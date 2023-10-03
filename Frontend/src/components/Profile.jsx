@@ -6,7 +6,7 @@ import "./Profile.css";
 const Profile = () => {
   return (
     <>
-      <div className="min-h-screen p-2 pt-0 -mt-7 bg-gray-600 flex items-center justify-center show-box">
+      <div className="min-h-screen p-2 pt-0 bg-gray-600 flex items-center justify-center show-box">
         <div className="shrinkwrap">
           <div className="containerwrap flex">
             <img
