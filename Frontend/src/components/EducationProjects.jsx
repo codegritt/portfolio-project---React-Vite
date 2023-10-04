@@ -1,9 +1,5 @@
 const EducationProjects = () => {
-  return (
-    <>
-      <div>hi</div>
-    </>
-  );
+  return <div>EducationProjects</div>;
 };
 
 export default EducationProjects;
