@@ -1,7 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
 import { introdata } from "./content_option";
-import "./Profile.css";
+import "../styles/Profile.css";
 
 const Profile = () => {
   return (

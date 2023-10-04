@@ -1,4 +1,4 @@
-import "./WorkExperience.css";
+import "../styles/WorkExperience.css";
 
 const WorkExperience = () => {
   return (
@@ -191,6 +191,46 @@ const WorkExperience = () => {
                     </div>
                   </div>
                 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="square">
+        <div>
+          <div>
+            <div>
+              <div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="square two">
+        <div>
+          <div>
+            <div>
+              <div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div></div>
               </div>
             </div>
           </div>

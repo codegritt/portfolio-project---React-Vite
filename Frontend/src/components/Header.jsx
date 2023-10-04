@@ -227,17 +227,17 @@ const Header = () => {
         </div>
       )}
       {tab === "Skills" && (
-          <div className="bg-gray-600 p-24 show-box">
+        <div className="bg-gray-600 p-24 show-box">
           <Skills />
         </div>
       )}
       {tab === "Education" && (
-        <div className="show-box">
+        <div className="bg-gray-600 show-box">
           <EducationProjects />
         </div>
       )}
       {tab === "Contact" && (
-        <div className="show-box">
+        <div className="bg-gray-600 show-box">
           <ContactMe />
         </div>
       )}
