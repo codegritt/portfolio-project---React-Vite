@@ -23,18 +23,6 @@ const dataabout = {
   aboutme:
     "Fairly rich experience in developing Front-end systems and writing application code. Designing and creating visual aspects of web sites interest me. I aspire to become a full stack developer in near future. I am a big Harry Potter junkie and a firm believer of real magic!",
 };
-const worktimeline = [
-  {
-    jobtitle: "Web developer and Coordinator",
-    where: "Cultural Center of Embassy of the Islamic Republic of Iran",
-    date: "2020 - present",
-  },
-  {
-    jobtitle: "Paragon Full Stack programm powered by Mistral company",
-    where: "Paragon - Mistral",
-    date: "2021 (9 months duration)",
-  },
-];
 
 const skills = [
   {
