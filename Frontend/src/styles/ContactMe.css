@@ -1425,13 +1425,12 @@
   height: 400px;
   padding: 40px;
   position: absolute;
-  top: 50%;
-  right: 55%;
+  top: 55%;
+  right: 50%;
   transform: translate(-50%, -50%);
-  background: #191919;
+  background: #1e293b;
   text-align: center;
-  box-shadow: -1px 92px 99px -62px rgba(3, 107, 255, 0.27), 0 1px 6px 0 rgba(10, 48, 255, 0.48);
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 .box h1 {
