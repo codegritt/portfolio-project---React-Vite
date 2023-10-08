@@ -1,8 +1,31 @@
 import "../styles/ContactMe.css";
-
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactMe = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_cc6tu8r",
+        "template_gemzqiq",
+        form.current,
+        "ck112Az-1HWujDIKN"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <>
       <div className="eyebody">
@@ -67,6 +90,22 @@ const ContactMe = () => {
             </clipPath>
           </defs>
         </svg>
+      </div>
+      <div>
+        <form className="box" ref={form} onSubmit={sendEmail}>
+          <h1>Contact Me</h1>
+          <input type="text" name="user_name" placeholder="Username" />
+          <input type="email" name="user_email" placeholder="Email" />
+          <input type="text" name="message" placeholder="Type some message" />
+          <button
+            style={{ width: "110px" }}
+            className="box_button"
+            type="submit"
+            value="Send"
+          >
+            Send
+          </button>
+        </form>
       </div>
     </>
   );
