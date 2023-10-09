@@ -2,7 +2,7 @@ const logotext = "NILOOFAR";
 const meta = {
   title: "Hello, I'm Gokul",
   description:
-    "I’m Niloufar GST Web designer _ Full stack devloper, currently working in Bosnia",
+    "I’m Gokul Web designer _ Full stack devloper, currently working in USA",
 };
 
 const introdata = {
