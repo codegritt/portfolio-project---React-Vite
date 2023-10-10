@@ -4,7 +4,6 @@ import WorkExperience from "./WorkExperience";
 import Skills from "./Skills";
 import EducationProjects from "./EducationProjects";
 import ContactMe from "./ContactMe";
-import DropDownMenu from "./DropDownMenu";
 
 const Header = () => {
   const [tab, setTab] = useState("Home");
